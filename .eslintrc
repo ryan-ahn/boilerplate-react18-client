@@ -1,0 +1,53 @@
+{
+  "root": true,
+  "env": { "browser": true, "node": true },
+  "parser": "@typescript-eslint/parser",
+  "extends": [
+    "eslint:recommended",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:react-hooks/recommended"
+  ],
+  "ignorePatterns": ["dist", ".eslintrc.cjs"],
+  "plugins": ["react-refresh", "better-styled-components", "prettier"],
+  "rules": {
+    "no-import-assign": "off",
+    "linebreak-style": 0,
+    "func-call-spacing": "off",
+    "import/no-cycle": "off",
+    "import/no-unresolved": "off",
+    "import/prefer-default-export": "off",
+    "import/no-extraneous-dependencies": "off",
+    // import 순서
+    "import/order": [
+      "error",
+      {
+        "groups": ["builtin", "external", "parent", "sibling", "index"],
+        "alphabetize": { "order": "desc" }
+      }
+    ],
+    "no-alert": "off",
+    "no-shadow": "off",
+    "no-spaced-func": "off",
+    "no-console": "off",
+    "semi-spacing": "error",
+    "@typescript-eslint/no-unused-vars": "warn",
+    "@typescript-eslint/no-var-requires": "off",
+    "@typescript-eslint/prefer-as-const": "off",
+    "@typescript-eslint/no-explicit-any": "off",
+    "@typescript-eslint/no-empty-function": "off",
+    "@typescript-eslint/func-call-spacing": ["error"],
+    "@typescript-eslint/type-annotation-spacing": ["error", { "after": true }],
+    "comma-dangle": [
+      "error",
+      {
+        "arrays": "always-multiline",
+        "objects": "always-multiline",
+        "imports": "always-multiline",
+        "exports": "always-multiline",
+        "functions": "always-multiline"
+      }
+    ],
+    "max-len": ["error", { "code": 300 }],
+    "react-refresh/only-export-components": ["warn", { "allowConstantExport": true }]
+  }
+}

@@ -14,4 +14,17 @@ export default function index() {
   );
 }
 
-const Wrapper = styled.div``;
+const Wrapper = styled.div`
+  ${({ theme }) => theme.flexSet('center', 'center', 'column')};
+  ${({ theme }) => theme.boxSet('100%', '100vh', '0px')};
+  ${({ theme }) => theme.colorSet('white', '#252525')};
+  gap: 20px;
+  & > h1 {
+    ${({ theme }) => theme.fontSet(70, 700, 70)};
+    white-space: pre-wrap;
+    text-align: center;
+  }
+  & > p {
+    ${({ theme }) => theme.fontSet(25, 300, 23)};
+  }
+`;

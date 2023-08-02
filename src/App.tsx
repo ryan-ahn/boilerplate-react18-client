@@ -1,10 +1,9 @@
-import Main from '@containers/main';
+import Main from '@containers/main/index';
 
 function App() {
   return (
     <>
-      <h1>Vite + React</h1>
-      <Main />
+      <Main title="hi" />
     </>
   );
 }

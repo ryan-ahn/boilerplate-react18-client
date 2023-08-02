@@ -1,13 +1,8 @@
-/**
- * Author : Ryan
- * Date : 2023-08-02
- * Desc : index
- */
-
 import styled from 'styled-components';
+import { IMainProps } from '../../interface/props';
 
-export default function index() {
-  return <Wrapper>33</Wrapper>;
+export default function index({ title }: IMainProps) {
+  return <Wrapper>{title}</Wrapper>;
 }
 
 const Wrapper = styled.div``;

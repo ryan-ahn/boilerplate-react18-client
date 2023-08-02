@@ -7,9 +7,10 @@
     "plugin:@typescript-eslint/recommended",
     "plugin:react-hooks/recommended"
   ],
-  "ignorePatterns": ["dist", ".eslintrc.cjs"],
+  "ignorePatterns": ["dist", ".eslintrc"],
   "plugins": ["react-refresh", "better-styled-components", "prettier"],
   "rules": {
+    "quotes": ["error", "single"],
     "no-import-assign": "off",
     "linebreak-style": 0,
     "func-call-spacing": "off",

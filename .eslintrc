@@ -5,9 +5,10 @@
   "extends": [
     "eslint:recommended",
     "plugin:@typescript-eslint/recommended",
-    "plugin:react-hooks/recommended"
+    "plugin:react-hooks/recommended",
+    "plugin:import/recommended"
   ],
-  "ignorePatterns": ["dist", ".eslintrc"],
+  "ignorePatterns": ["dist"],
   "plugins": ["react-refresh", "better-styled-components", "prettier"],
   "rules": {
     "quotes": ["error", "single"],

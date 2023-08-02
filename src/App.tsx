@@ -1,11 +1,18 @@
-import Main from '@containers/main/index';
+import { ThemeProvider } from 'styled-components';
+import { BrowserRouter } from 'react-router-dom';
+import { GlobalStyle } from '@styles/global';
+import theme from '@styles/theme';
+import AppRoutes from '@routes/index';
 
-function App() {
+export default function App() {
   return (
     <>
-      <Main title="hi" />
+      <ThemeProvider theme={theme}>
+        <BrowserRouter>
+          <GlobalStyle />
+          <AppRoutes />
+        </BrowserRouter>
+      </ThemeProvider>
     </>
   );
 }
-
-export default App;

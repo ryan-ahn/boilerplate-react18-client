@@ -17,16 +17,19 @@
     "noFallthroughCasesInSwitch": true,
     "baseUrl": ".",
     "paths": {
-      "@/*": ["src/*"],
+      "@assets/*": ["src/assets/*"],
+      "@common/*": ["src/common/*"],
       "@components/*": ["src/components/*"],
       "@containers/*": ["src/containers/*"],
       "@interface/*": ["src/interface/*"],
       "@layouts/*": ["src/layouts/*"],
+      "@libs/*": ["src/libs/*"],
+      "@routes/*": ["src/routes/*"],
       "@store/*": ["src/store/*"],
-      "@styles/*": ["src/styles/*"],
-      "@libs/*": ["src/libs/*"]
+      "@styles/*": ["src/styles/*"]
     }
   },
-  "include": ["src", "**/*.ts", "**.*.tsx"],
+  "exclude": ["node_modules"],
+  "include": ["src", "**/*.ts", "**/*.tsx"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }

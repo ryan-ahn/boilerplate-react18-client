@@ -1,4 +1,4 @@
-module.exports = {
+modules.extends = {
   root: true,
   env: { browser: true, es2020: true },
   extends: [
@@ -7,7 +7,7 @@ module.exports = {
     'plugin:react-hooks/recommended',
   ],
   ignorePatterns: ['dist', '.eslintrc.cjs'],
-  parser: '@typescript-eslint/parser',
+  parser: ['@typescript-eslint/parser', 'better-styled-components'],
   plugins: ['react-refresh'],
   rules: {
     'react-refresh/only-export-components': [

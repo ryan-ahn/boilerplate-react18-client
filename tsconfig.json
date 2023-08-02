@@ -18,6 +18,21 @@
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true
   },
+  "baseUrl": "./src",
+  "paths": {
+    "@apis/*": ["apis/*"],
+    "@common/*": ["common/*"],
+    "@components/*": ["components/*"],
+    "@containers/*": ["containers/*"],
+    "@interface/*": ["interface/*"],
+    "@layouts/*": ["layouts/*"],
+    "@pages/*": ["pages/*"],
+    "@plugins/*": ["plugins/*"],
+    "@router/*": ["router/*"],
+    "@store/*": ["store/*"],
+    "@styles/*": ["styles/*"],
+    "@utils/*": ["utils/*"]
+  },
   "include": ["src"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }

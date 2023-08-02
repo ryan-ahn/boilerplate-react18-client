@@ -1,13 +1,15 @@
 {
   "compilerOptions": {
-    "target": "ES2020",
+    "target": "ESNext",
     "useDefineForClassFields": true,
-    "lib": ["ES2020", "DOM", "DOM.Iterable"],
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "types": ["vite/client"],
     "module": "ESNext",
     "skipLibCheck": true,
-    /* Bundler mode */
-    "moduleResolution": "bundler",
+    "moduleResolution": "node",
+    "allowJs": true,
     "allowImportingTsExtensions": true,
+    "allowSyntheticDefaultImports": true,
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
@@ -18,21 +20,21 @@
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true
   },
-  "baseUrl": "./src",
+  "baseUrl": ".",
   "paths": {
-    "@apis/*": ["apis/*"],
-    "@common/*": ["common/*"],
-    "@components/*": ["components/*"],
-    "@containers/*": ["containers/*"],
-    "@interface/*": ["interface/*"],
-    "@layouts/*": ["layouts/*"],
-    "@pages/*": ["pages/*"],
-    "@plugins/*": ["plugins/*"],
-    "@router/*": ["router/*"],
-    "@store/*": ["store/*"],
-    "@styles/*": ["styles/*"],
-    "@utils/*": ["utils/*"]
+    "@/*": ["src/*"],
+    "@common/*": ["src/common/*"],
+    "@components/*": ["src/components/*"],
+    "@containers/*": ["src/containers/*"],
+    "@interface/*": ["src/interface/*"],
+    "@layouts/*": ["src/layouts/*"],
+    "@pages/*": ["src/pages/*"],
+    "@router/*": ["src/router/*"],
+    "@store/*": ["src/store/*"],
+    "@styles/*": ["src/styles/*"],
+    "@utils/*": ["src/utils/*"]
   },
-  "include": ["src"],
+  "exclude": ["node_modules"],
+  "include": ["src", "**/*.ts", "**/*.tsx", "vite-env.d.ts"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }

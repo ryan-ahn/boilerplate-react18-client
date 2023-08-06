@@ -1,5 +1,5 @@
-import { CONTENT_PAGE } from '@common/content';
 import styled from 'styled-components';
+import { CONTENT_PAGE } from '@common/content';
 
 export default function index() {
   // variable

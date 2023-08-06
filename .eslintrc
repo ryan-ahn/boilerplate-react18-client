@@ -1,18 +1,39 @@
 {
   "root": true,
-  "env": { "browser": true, "node": true },
+  "env": {
+    "browser": true,
+    "node": true
+  },
   "parser": "@typescript-eslint/parser",
-  "extends": [
-    "eslint:recommended",
-    "plugin:@typescript-eslint/recommended",
-    "plugin:react-hooks/recommended",
-    "plugin:import/recommended"
+  "plugins": [
+    "@typescript-eslint",
+    "better-styled-components",
+    "prettier",
+    "import"
   ],
-  "ignorePatterns": ["dist"],
-  "plugins": ["react-refresh", "better-styled-components", "prettier"],
+  "extends": [
+    "plugin:@typescript-eslint/recommended",
+    "plugin:prettier/recommended",
+    "plugin:import/recommended",
+    "airbnb-typescript",
+    "airbnb"
+  ],
+  "ignorePatterns": [
+    "dist"
+  ],
   "rules": {
-    "quotes": ["error", "single"],
-    "no-import-assign": "off",
+    "quotes": [
+      "error",
+      "single"
+    ],
+    "no-alert": "off",
+    "no-shadow": "off",
+    "no-spaced-func": "off",
+    "no-console": "off",
+    "react/jsx-filename-extension": "off",
+    "react/react-in-jsx-scope": "off",
+    "no-use-before-define": "off",
+    "no-import-assign": "warn",
     "linebreak-style": 0,
     "func-call-spacing": "off",
     "import/no-cycle": "off",
@@ -23,22 +44,33 @@
     "import/order": [
       "error",
       {
-        "groups": ["builtin", "external", "parent", "sibling", "index"],
-        "alphabetize": { "order": "desc" }
+        "groups": [
+          "builtin",
+          "external",
+          "parent",
+          "sibling",
+          "index"
+        ],
+        "alphabetize": {
+          "order": "desc"
+        }
       }
     ],
-    "no-alert": "off",
-    "no-shadow": "off",
-    "no-spaced-func": "off",
-    "no-console": "off",
     "semi-spacing": "error",
     "@typescript-eslint/no-unused-vars": "warn",
     "@typescript-eslint/no-var-requires": "off",
     "@typescript-eslint/prefer-as-const": "off",
     "@typescript-eslint/no-explicit-any": "off",
     "@typescript-eslint/no-empty-function": "off",
-    "@typescript-eslint/func-call-spacing": ["error"],
-    "@typescript-eslint/type-annotation-spacing": ["error", { "after": true }],
+    "@typescript-eslint/func-call-spacing": [
+      "error"
+    ],
+    "@typescript-eslint/type-annotation-spacing": [
+      "error",
+      {
+        "after": true
+      }
+    ],
     "comma-dangle": [
       "error",
       {
@@ -49,7 +81,17 @@
         "functions": "always-multiline"
       }
     ],
-    "max-len": ["error", { "code": 300 }],
-    "react-refresh/only-export-components": ["warn", { "allowConstantExport": true }]
+    "max-len": [
+      "error",
+      {
+        "code": 300
+      }
+    ],
+    "react-refresh/only-export-components": [
+      "warn",
+      {
+        "allowConstantExport": true
+      }
+    ]
   }
 }

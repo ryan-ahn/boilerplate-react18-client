@@ -1,4 +1,4 @@
-# Nuxt3 Awesome Starter
+# React18 Awesome Starter
 
 ![Author](https://img.shields.io/badge/Author-ryan-orange.svg)
 ![License](https://img.shields.io/badge/License-MIT-blue.svg)
@@ -8,11 +8,10 @@
 - [x] ⚙️&nbsp;&nbsp;Small & Fast Bundler (Vite)
 - [x] 🗝️&nbsp;&nbsp;Typed Programming (Typescript)
 - [x] 🕋&nbsp;&nbsp;Simple Store (Zustand)
+- [x] 📙&nbsp;&nbsp;Configure Formatter (ESLint + Prettier)
 - [x] 🧵&nbsp;&nbsp;Built-in Component & Layout
-- [x] 📙&nbsp;&nbsp;Configure ESLint
-- [ ] 📘&nbsp;&nbsp;Configure StyleLint
 - [x] ✨&nbsp;&nbsp;Setting Reset Style
-- [x] ⚡️&nbsp;&nbsp;Setting Mixin Style
+- [x] ⚡️&nbsp;&nbsp;Setting Style Set
 - [x] 📍&nbsp;&nbsp;Absolute Path
 - [ ] 📱&nbsp;&nbsp;Check Device
 - [ ] 🗂️&nbsp;&nbsp;SSR & Page SEO
@@ -54,7 +53,7 @@ setting.json 파일을 vscode 세팅에 입력
 npm run dev
 ```
 
-## Using with Mixin
+## Using with Style set
 
 ```javascript
 const Style = styled.div`

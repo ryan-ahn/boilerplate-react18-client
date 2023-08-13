@@ -6,6 +6,11 @@ export default function index() {
   const contentTitle = CONTENT_PAGE.main.title;
   const contentDescription = CONTENT_PAGE.main.description;
 
+  const test = () => {
+    console.log('hi');
+  };
+  test();
+
   return (
     <Wrapper>
       <h1>{contentTitle}</h1>

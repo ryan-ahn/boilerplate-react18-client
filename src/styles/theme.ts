@@ -1,4 +1,7 @@
-import baseStyled, { DefaultTheme, ThemedStyledInterface } from 'styled-components';
+import baseStyled, {
+  DefaultTheme,
+  ThemedStyledInterface,
+} from 'styled-components';
 import { flexSet, boxSet, fontSet, colorSet, backgroundSet } from './mixin';
 
 const myTheme: DefaultTheme = {

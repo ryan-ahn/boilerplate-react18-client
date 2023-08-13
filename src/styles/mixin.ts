@@ -1,5 +1,10 @@
-import { TAlignItems, TFlexDirection, TFontWeight, TJustifyContent } from '@interface/alias';
 import { css } from 'styled-components';
+import {
+  TAlignItems,
+  TFlexDirection,
+  TFontWeight,
+  TJustifyContent,
+} from '@interface/alias';
 
 // Flex Set
 export const flexSet = (
@@ -14,7 +19,11 @@ export const flexSet = (
 `;
 
 // Box Set
-export const boxSet = (width: string, height: string, borderRadius: string) => css`
+export const boxSet = (
+  width: string,
+  height: string,
+  borderRadius: string,
+) => css`
   width: ${width};
   height: ${height};
   border-radius: ${borderRadius};

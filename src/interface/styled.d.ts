@@ -1,6 +1,12 @@
 import 'styled-components';
 import { minMedia, maxMedia } from '../styles/theme';
-import { flexSet, boxSet, fontSet, colorSet, backgroundSet } from '../styles/mixin';
+import {
+  flexSet,
+  boxSet,
+  fontSet,
+  colorSet,
+  backgroundSet,
+} from '../styles/mixin';
 
 declare module 'styled-components' {
   export interface DefaultTheme {

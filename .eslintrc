@@ -27,10 +27,6 @@
     "dist"
   ],
   "rules": {
-    "quotes": [
-      "error",
-      "single"
-    ],
     "no-alert": "off",
     "no-shadow": "off",
     "no-spaced-func": "off",
@@ -61,7 +57,6 @@
         }
       }
     ],
-    "semi-spacing": "error",
     "@typescript-eslint/no-unused-vars": "warn",
     "@typescript-eslint/no-var-requires": "off",
     "@typescript-eslint/prefer-as-const": "off",
@@ -75,6 +70,11 @@
       {
         "after": true
       }
+    ],
+    "semi-spacing": "error",
+    "quotes": [
+      "error",
+      "single"
     ],
     "comma-dangle": [
       "error",
@@ -90,12 +90,6 @@
       "error",
       {
         "code": 300
-      }
-    ],
-    "react-refresh/only-export-components": [
-      "warn",
-      {
-        "allowConstantExport": true
       }
     ]
   }

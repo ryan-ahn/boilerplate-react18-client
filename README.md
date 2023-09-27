@@ -1,4 +1,4 @@
-# React18 Awesome Starter
+# Ryan's React18 Awesome Starter
 
 ![Author](https://img.shields.io/badge/Author-ryan-orange.svg)
 ![License](https://img.shields.io/badge/License-MIT-blue.svg)

@@ -39,8 +39,8 @@
 ## Getting Started
 ### 1) Installation
 ```shell
-git clone ryan-ahn/boilerplate-react18-vite
-cd ryan-ahn/boilerplate-react18-vite
+git clone ryan-ahn/boilerplate-react18-view
+cd ryan-ahn/boilerplate-react18-view
 npm install
 ```
 ### 2) Configuration VSCode

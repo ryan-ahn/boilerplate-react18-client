@@ -41,15 +41,18 @@
     "no-console": "off",
     "no-use-before-define": "off",
     "no-import-assign": "warn",
+    "arrow-body-style": "off",
     "linebreak-style": 0,
     "func-call-spacing": "off",
     "import/no-cycle": "off",
     "import/no-unresolved": "off",
     "import/prefer-default-export": "off",
     "import/no-extraneous-dependencies": "off",
+    "implicit-arrow-linebreak": "off",
     "react/jsx-filename-extension": "off",
     "react/react-in-jsx-scope": "off",
     "react/jsx-one-expression-per-line": "off",
+    "react/jsx-props-no-spreading": "off",
     "@typescript-eslint/no-use-before-define": "off",
     "@typescript-eslint/no-var-requires": "off",
     "@typescript-eslint/prefer-as-const": "off",
@@ -71,6 +74,22 @@
           "order": "desc"
         }
       }
+    ],
+    // import 확장자 제거
+    "import/extensions": [
+      "error",
+      "ignorePackages",
+      {
+        "js": "never",
+        "jsx": "never",
+        "ts": "never",
+        "tsx": "never"
+      }
+    ],
+    // 에러 처리
+    "arrow-parens": [
+      "error",
+      "as-needed"
     ],
     "@typescript-eslint/func-call-spacing": [
       "error"
@@ -94,12 +113,6 @@
         "imports": "always-multiline",
         "exports": "always-multiline",
         "functions": "always-multiline"
-      }
-    ],
-    "max-len": [
-      "error",
-      {
-        "code": 300
       }
     ]
   }

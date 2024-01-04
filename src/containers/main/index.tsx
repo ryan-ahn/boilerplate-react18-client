@@ -1,15 +1,10 @@
 import styled from 'styled-components';
-import { CONTENT_PAGE } from '@common/content';
+import { CONTENT_PAGE } from '@constants/static/content';
 
 export default function index() {
   // variable
   const contentTitle = CONTENT_PAGE.main.title;
   const contentDescription = CONTENT_PAGE.main.description;
-
-  const test = () => {
-    console.log('hi');
-  };
-  test();
 
   return (
     <Wrapper>

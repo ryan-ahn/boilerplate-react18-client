@@ -40,7 +40,7 @@
 ### 1) Installation
 ```shell
 git clone ryan-ahn/boilerplate-react18-client
-cd ryan-ahn/boilerplate-react18-view
+cd ryan-ahn/boilerplate-react18-client
 npm install
 ```
 ### 2) Configuration VSCode

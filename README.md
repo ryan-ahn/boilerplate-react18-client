@@ -10,11 +10,12 @@
 - [x] 🕋&nbsp;&nbsp;Simple Store (Zustand)
 - [x] 📙&nbsp;&nbsp;Configure Formatter (ESLint + Prettier)
 - [x] 🧵&nbsp;&nbsp;Built-in Component & Layout
+- [x] 🧩&nbsp;&nbsp;High Order Component
 - [x] ✨&nbsp;&nbsp;Setting Reset Style
 - [x] ⚡️&nbsp;&nbsp;Setting Style Set
+- [x] 🗂️&nbsp;&nbsp;Page Helmet SEO
 - [x] 📍&nbsp;&nbsp;Absolute Path
 - [ ] 📱&nbsp;&nbsp;Check Device
-- [ ] 🗂️&nbsp;&nbsp;SSR & Page SEO
 - [ ] 🪄&nbsp;&nbsp;Theme Mode
 
 ## Framworks
@@ -25,15 +26,14 @@
 ## Code Pattern
 - **Static(public)**
 - **Root(src)** <br/>
-- ⎣&nbsp;**assets** - image, icon, font 등 <br/>
-- ⎣&nbsp;**common** - 정적 데이터(텍스트) <br/>
-- ⎣&nbsp;**components** - 최소 단위 컴포넌트(atoms, molecules, organism) <br/>
+- ⎣&nbsp;**constants** - 정적 리소스 <br/>
+- ⎣&nbsp;**components** - 아토믹 컴포넌트(atoms, molecules, organism) <br/>
 - ⎣&nbsp;**containers** - 비즈니스 로직 컴포넌트(template) <br/>
 - ⎣&nbsp;**interface** - 객체 타입 지정 <br/>
 - ⎣&nbsp;**layouts** - 고정 영역 <br/>
-- ⎣&nbsp;**router** - React Routes<br/>
-- ⎣&nbsp;**libs** - Store, Hooks, Utils 등<br/>
-- ⎣&nbsp;**styles** - css셋 모음<br/>
+- ⎣&nbsp;**router** - 미들웨어, 라우트 설정<br/>
+- ⎣&nbsp;**libs** - 스토어, 커스텀 훅, 유틸리티 등<br/>
+- ⎣&nbsp;**styles** - 스타일 셋 모음<br/>
 
 
 ## Getting Started

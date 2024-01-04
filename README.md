@@ -2,7 +2,7 @@
 
 ![Author](https://img.shields.io/badge/Author-ryan-orange.svg)
 ![License](https://img.shields.io/badge/License-MIT-blue.svg)
-![Last Commit](https://img.shields.io/github/last-commit/ryan-ahn/boilerplate-react18-view)
+![Last Commit](https://img.shields.io/github/last-commit/ryan-ahn/boilerplate-react18-client)
 
 ## Features
 - [x] ⚙️&nbsp;&nbsp;Small & Fast Bundler (Vite)
@@ -39,7 +39,7 @@
 ## Getting Started
 ### 1) Installation
 ```shell
-git clone ryan-ahn/boilerplate-react18-view
+git clone ryan-ahn/boilerplate-react18-client
 cd ryan-ahn/boilerplate-react18-view
 npm install
 ```

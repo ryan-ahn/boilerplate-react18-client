@@ -41,7 +41,8 @@
     "no-console": "off",
     "no-use-before-define": "off",
     "no-import-assign": "warn",
-    "arrow-body-style": "off",
+    "jsx-a11y/anchor-is-valid": "off",
+    "operator-linebreak": "off",
     "linebreak-style": 0,
     "func-call-spacing": "off",
     "import/no-cycle": "off",
@@ -87,6 +88,10 @@
       }
     ],
     // 에러 처리
+    "arrow-body-style": [
+      "error",
+      "as-needed"
+    ],
     "arrow-parens": [
       "error",
       "as-needed"

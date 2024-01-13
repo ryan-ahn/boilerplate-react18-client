@@ -18,7 +18,7 @@
 - [ ] 📱&nbsp;&nbsp;Check Device
 - [ ] 🪄&nbsp;&nbsp;Theme Mode
 
-## Framworks
+## Frameworks
 - **Bundler** : Vite
 - **Core** : React18
 - **Store** : Zustand

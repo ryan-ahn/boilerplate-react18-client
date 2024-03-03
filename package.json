@@ -3,7 +3,7 @@
   "author": {
     "name": "github.com/ryan-ahn"
   },
-  "private": true,
+  "private": false,
   "engines": {
     "node": "18.18.2"
   },

@@ -1,11 +1,11 @@
 {
-  "name": "boilerplate-react18-vite",
+  "name": "npm-react18-starter",
   "author": {
     "name": "github.com/ryan-ahn"
   },
   "private": true,
   "engines": {
-    "node": "16.15.0"
+    "node": "18.18.2"
   },
   "type": "module",
   "scripts": {

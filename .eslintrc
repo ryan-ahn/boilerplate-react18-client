@@ -40,20 +40,26 @@
     "no-spaced-func": "off",
     "no-console": "off",
     "no-use-before-define": "off",
+    "no-confusing-arrow": "off",
     "no-import-assign": "warn",
+    "object-curly-newline": "off",
     "jsx-a11y/anchor-is-valid": "off",
     "operator-linebreak": "off",
     "linebreak-style": 0,
+    "function-paren-newline": "off",
     "func-call-spacing": "off",
     "import/no-cycle": "off",
     "import/no-unresolved": "off",
-    "import/prefer-default-export": "off",
     "import/no-extraneous-dependencies": "off",
+    "import/prefer-default-export": "off",
     "implicit-arrow-linebreak": "off",
-    "react/jsx-filename-extension": "off",
+    "react/require-default-props": "off",
+    "react/jsx-curly-newline": "off",
     "react/react-in-jsx-scope": "off",
+    "react/jsx-filename-extension": "off",
     "react/jsx-one-expression-per-line": "off",
     "react/jsx-props-no-spreading": "off",
+    "react/function-component-definition": "off",
     "@typescript-eslint/no-use-before-define": "off",
     "@typescript-eslint/no-var-requires": "off",
     "@typescript-eslint/prefer-as-const": "off",
@@ -119,6 +125,7 @@
         "exports": "always-multiline",
         "functions": "always-multiline"
       }
-    ]
+    ],
+    "max-len": "off"
   }
 }

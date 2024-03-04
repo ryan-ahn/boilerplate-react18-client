@@ -28,5 +28,8 @@ if (!installedDeps) {
 }
 
 console.log(
-  "Success!!! Now you can use ryan's package.",
+  "===== Success =====",
+);
+console.log(
+  `cd ${repoName} && npm install`,
 );

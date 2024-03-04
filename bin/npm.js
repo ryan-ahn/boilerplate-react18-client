@@ -28,8 +28,11 @@ if (!installedDeps) {
 }
 
 console.log(
-  "===== Success =====",
+  "======= Success =======",
 );
 console.log(
   `cd ${repoName} && npm install`,
+);
+console.log(
+  "=======================",
 );

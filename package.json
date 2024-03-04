@@ -16,7 +16,7 @@
     "eslint",
     "prettier"
   ],
-  "version": "1.0.6",
+  "version": "1.0.7",
   "private": false,
   "engines": {
     "node": "18.18.2"

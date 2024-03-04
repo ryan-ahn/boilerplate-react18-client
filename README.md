@@ -40,6 +40,8 @@
 ### 1) Installation
 ```shell
 npx react18-starter my-project
+cd my-project
+npm install
 ```
 ### 2) Run development
 ```shell

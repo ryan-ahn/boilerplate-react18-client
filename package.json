@@ -14,7 +14,8 @@
     "zustand",
     "styled-components",
     "eslint",
-    "prettier"
+    "prettier",
+    "boilerplate"
   ],
   "version": "1.0.7",
   "private": false,

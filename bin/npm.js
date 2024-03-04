@@ -1,6 +1,8 @@
+#!/usr/bin/env node
+
 import { execSync } from "child_process";
 
-function runCommand (command) {
+const runCommand = (command) => {
   try {
     execSync(command, { stdio: "inherit" });
     return true;

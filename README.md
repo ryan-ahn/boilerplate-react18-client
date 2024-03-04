@@ -39,8 +39,7 @@
 ## Getting Started
 ### 1) Installation
 ```shell
-git clone ryan-ahn/npm-react18-starter
-npm install
+npx react18-starter my-project
 ```
 ### 2) Run development
 ```shell

@@ -1,9 +1,22 @@
 {
-  "name": "@ryan-ahn/npm-react18-starter",
-  "version": "1.0.1",
+  "name": "react18-starter",
   "author": {
-    "name": "github.com/ryan-ahn"
+    "name": "ryan-ahn",
+    "email": "kaaiinn4@gmail.com",
+    "url": "https://github.com/ryan-ahn"
   },
+  "license": "MIT",
+  "description": "Start a Vite React TypeScript project in few second!",
+  "keywords": [
+    "react18",
+    "vite",
+    "typescript",
+    "zustand",
+    "styled-components",
+    "eslint",
+    "prettier"
+  ],
+  "version": "1.0.1",
   "private": false,
   "engines": {
     "node": "18.18.2"

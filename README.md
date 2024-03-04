@@ -23,7 +23,7 @@
 - **Core** : React18
 - **Store** : Zustand
 
-## Code Pattern
+## Code Structure
 - **Static(public)**
 - **Root(src)** <br/>
 - ⎣&nbsp;**components** - atomic stateless components <br/>

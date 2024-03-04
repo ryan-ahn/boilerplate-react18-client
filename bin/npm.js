@@ -30,9 +30,3 @@ if (!installedDeps) {
 console.log(
   "======= Success =======",
 );
-console.log(
-  `cd ${repoName} && npm install`,
-);
-console.log(
-  "=======================",
-);

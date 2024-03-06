@@ -1,8 +1,10 @@
 # Ryan's React18 Awesome Starter
 
+
 ![Author](https://img.shields.io/badge/Author-ryan-orange.svg)
 ![License](https://img.shields.io/badge/License-MIT-blue.svg)
 ![Last Commit](https://img.shields.io/github/last-commit/ryan-ahn/npm-react18-starter)
+
 
 ## Features
 - [x] ⚙️&nbsp;&nbsp;Small & Fast Bundler (Vite)
